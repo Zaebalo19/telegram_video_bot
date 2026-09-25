@@ -1,7 +1,7 @@
 
 import asyncio
 import sqlite3
-import os
+
 
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart, Command
@@ -12,7 +12,7 @@ from aiogram.filters import CommandStart, Command
 # =========================================================
 
 # Токен, который выдал @BotFather
-BOT_TOKEN = os.getenv("8970777640:AAG3EUAmmYzXGP20eePkDNzE81jwweH9p5c")
+BOT_TOKEN = "8970777640:AAG3EUAmmYzXGP20eePkDNzE81jwweH9p5c"
 
 # ТВОЙ Telegram ID
 # Например: 123456789
